@@ -21,10 +21,15 @@ The goals / steps of this project are the following:
 My pipeline consisted of 6 steps. 
 
 Step 1, I converted the images to grayscale.
+
 Step 2, I made an gaussian smoothing,and chose the kerne_size as 5.
+
 Step 3, I made canny detection,and the low_threshold and high_threshold are 50 and 150 seperatly.
+
 Step 4, I kept the region of interest.
+
 Step 5, I made Hough transform for line detecting
+
 Step 6, I draw lines on a blank image.
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by
